@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Convertisseur</title>
+    </head>
+    <body>
+        <div class="quiz">
+            <div id="welcomscreen" class="welcomscreen">
+                <h1 class="quiz__maintitle">Bienvenue à Poudlard mes jeunes sorciers</h1>
+                <h3 class="quiz__description">Mes le choix-peau pour savoir dans quelle maison tu vas suivre ta scolarité !</h3>
+                <button id="quiz__btn" class="quiz__btn">Démarrer</button>
+            </div>
+            <div id="questionscreen" class="questionscreen">
+
+            </div>
+            <div id="resultscreen" class="resultscreen">
+                <h1 class="quiz__subtitle">Bravo ! ta maison est choisi.</h1>
+                <p class="quiz__description">Voilà tes résultats : <br>
+                Gryffondor : <span id="gryffondor">x</span> <br>
+                Serpentard : <span id="serpentard">x</span> <br>
+                Serdaigle : <span id="serdaigle">x</span> <br>
+                Poufsouffle : <span id="poufsouffle">x</span></p>
+                <button id="quiz__btn__end" class="quiz__btn">Rejouer</button>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
